@@ -46,14 +46,34 @@ APRENDA A TRABALHAR COM CONCEITOS MODERNOS E AVANÇADOS DO JAVASCRIPT, NESSE CUR
 
 #### 03 - Baixar Dependências de Desenvolvimento JavaScript
 
+-npm i webpack webpack-cli --save-dev
+
 #### 04 - Baixar Dependências JavaScript com NPM
+
+- npm i package
 
 #### 05 - Instalar Módulos Globalmente com NPM
 
+- npm -g modulo
+
 #### 06 - Padrão CommonJS JavaScript
+
+```js
+console.log("TESTANDO OUTEHER.js");
+
+module.exports = 123;
+```
+
+```js
+const outherJS = require('./outher');
+
+console.log(`Imprimindo de OutherJS ${outherJS}`);
+```
 
 #### 07 - Remover Módulo com NPM
 
+- npm update
+- npm unistall axios
 
 [Voltar ao Índice](#indice)
 
@@ -64,7 +84,23 @@ APRENDA A TRABALHAR COM CONCEITOS MODERNOS E AVANÇADOS DO JAVASCRIPT, NESSE CUR
 
 #### 08 - Apresentação do Webpack
 
+- https://webpack.js.org/
+
 #### 09 - Webpack entry e output
+
+- [webpack/webpack.config.js](webpack/webpack.config.js)
+```js
+const path = require('path');
+
+module.exports = {
+    entry: "./src/main.js",
+    output:{
+        path: path.resolve(__dirname, "dist"),
+        filename: "bundle.js"
+    },
+    mode: "development"
+}
+```
 
 #### 10 - ES6 com Webpack
 
