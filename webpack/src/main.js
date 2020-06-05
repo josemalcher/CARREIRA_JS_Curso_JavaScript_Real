@@ -1,3 +1,8 @@
-const outherJS = require('./outher');
+//const outherJS = require('./outher');
 
-console.log(`Imprimindo de OutherJS ${outherJS}`);
+//import {outhe};
+
+import outher from './outher'
+
+
+console.log(`Imprimindo de OutherJS ${outher}`);

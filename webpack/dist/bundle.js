@@ -90,10 +90,11 @@
 /*!*********************!*\
   !*** ./src/main.js ***!
   \*********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("const outherJS = __webpack_require__(/*! ./outher */ \"./src/outher.js\");\r\n\r\nconsole.log(`Imprimindo de OutherJS ${outherJS}`);\n\n//# sourceURL=webpack:///./src/main.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _outher__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./outher */ \"./src/outher.js\");\n//const outherJS = require('./outher');\r\n\r\n//import {outhe};\r\n\r\n\r\n\r\n\r\nconsole.log(`Imprimindo de OutherJS ${_outher__WEBPACK_IMPORTED_MODULE_0__[\"default\"]}`);\n\n//# sourceURL=webpack:///./src/main.js?");
 
 /***/ }),
 
@@ -101,10 +102,11 @@ eval("const outherJS = __webpack_require__(/*! ./outher */ \"./src/outher.js\");
 /*!***********************!*\
   !*** ./src/outher.js ***!
   \***********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("console.log(\"TESTANDO OUTEHER.js\");\r\n\r\nmodule.exports = 123;\n\n//# sourceURL=webpack:///./src/outher.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nconsole.log(\"TESTANDO OUTEHER.js\");\r\n\r\n// module.exports = 123;\r\n/* harmony default export */ __webpack_exports__[\"default\"] = (12345654654654654);\n\n//# sourceURL=webpack:///./src/outher.js?");
 
 /***/ })
 
