@@ -104,6 +104,17 @@ module.exports = {
 
 #### 10 - ES6 com Webpack
 
+```json
+"scripts": {
+    "dev" : "webpack --mode development",
+    "build" : "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+```
+
+- npm run dev
+- nom run build
+
 #### 11 - Webpack Mode
 
 #### 12 - Webpack Autoreload e Watch
