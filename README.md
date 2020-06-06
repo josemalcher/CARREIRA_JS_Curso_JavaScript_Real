@@ -119,6 +119,8 @@ module.exports = {
 
 #### 12 - Webpack Autoreload e Watch
 
+- npm i --save-dev webpack-dev-server
+
 #### 13 - Gerar HTML com Webpack
 
 #### 14 - Webpack Loaders - Carregar CSS
