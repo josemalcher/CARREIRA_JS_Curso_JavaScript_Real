@@ -5,11 +5,11 @@ const OptimizeCssAssetsWebpackPlugin = require('optimize-css-assets-webpack-plug
 
 module.exports = {
     entry: "./src/main.js",
-    output:{
+    output: {
         path: path.resolve(__dirname, "dist"),
         filename: "bundle.js"
     },
-    devServer:{
+    devServer: {
         contentBase: "./dist"
     },
     plugins: [
@@ -22,7 +22,8 @@ module.exports = {
         })
     ],
     module: {
-        rules: [{
+        rules: [
+            {
             //test: /\.css$/,
             test: /\.(c|sa|sc)ss$/,
             use: [
@@ -31,10 +32,15 @@ module.exports = {
                 'css-loader',
                 'sass-loader'
             ]
-        }],
+            },
+            {
+                test: /\.(png|jpg|jpeg|svg|gif)$/,
+                use: ['file-loader']
+            }
+        ],
     },
     optimization: {
-        minimize: true
+        minimize: false
 
         /*minimize: [
             new OptimizeCssAssetsWebpackPlugin()

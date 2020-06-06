@@ -1,4 +1,9 @@
-body{background:#999999}
+body {
+  background: #999999;
+  background-image: url(a44cb339d018f1f656e7419f9450bdc2.jpg);
+  background-repeat: no-repeat; }
 
-.btn{background:#000;color:red}
+.btn {
+  background: #000;
+  color: red; }
 

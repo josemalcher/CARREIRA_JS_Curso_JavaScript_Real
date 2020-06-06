@@ -1,4 +1,6 @@
 body {
     background: #999999;
+    background-image: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
 
 }

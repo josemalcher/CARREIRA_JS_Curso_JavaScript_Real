@@ -133,6 +133,7 @@ module.exports = {
 
 #### 18 - Webpack Load de Imagens
 
+- terminado!
 
 [Voltar ao Índice](#indice)
 
