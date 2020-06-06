@@ -97,6 +97,17 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 
 /***/ }),
 
+/***/ "./src/assets/sass/app.scss":
+/*!**********************************!*\
+  !*** ./src/assets/sass/app.scss ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/assets/sass/app.scss?");
+
+/***/ }),
+
 /***/ "./src/main.js":
 /*!*********************!*\
   !*** ./src/main.js ***!
@@ -105,7 +116,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _outher__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./outher */ \"./src/outher.js\");\n/* harmony import */ var _assets_css_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/css/style.css */ \"./src/assets/css/style.css\");\n/* harmony import */ var _assets_css_style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_css_style_css__WEBPACK_IMPORTED_MODULE_1__);\n//const outherJS = require('./outher');\r\n\r\n//import {outhe};\r\n\r\n\r\n\r\n\r\n\r\nconsole.log(`Imprimindo de OutherJS ${_outher__WEBPACK_IMPORTED_MODULE_0__[\"default\"]}`);\n\n//# sourceURL=webpack:///./src/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _outher__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./outher */ \"./src/outher.js\");\n/* harmony import */ var _assets_css_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/css/style.css */ \"./src/assets/css/style.css\");\n/* harmony import */ var _assets_css_style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_css_style_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _assets_sass_app_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/sass/app.scss */ \"./src/assets/sass/app.scss\");\n/* harmony import */ var _assets_sass_app_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_sass_app_scss__WEBPACK_IMPORTED_MODULE_2__);\n//const outherJS = require('./outher');\r\n\r\n//import {outhe};\r\n\r\n\r\n\r\n\r\n\r\n\r\nconsole.log(`Imprimindo de OutherJS ${_outher__WEBPACK_IMPORTED_MODULE_0__[\"default\"]}`);\n\n//# sourceURL=webpack:///./src/main.js?");
 
 /***/ }),
 
