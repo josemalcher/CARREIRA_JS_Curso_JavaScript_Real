@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const OptimizeCssAssetsWebpackPlugin = require('optimize-css-assets-webpack-plugin');
 
 module.exports = {
     entry: "./src/main.js",
@@ -31,5 +32,12 @@ module.exports = {
                 'sass-loader'
             ]
         }],
+    },
+    optimization: {
+        minimize: true
+
+        /*minimize: [
+            new OptimizeCssAssetsWebpackPlugin()
+        ]*/
     }
 }
